@@ -1,0 +1,93 @@
+<<!DOCTYPE html>
+<html>
+  <head>
+    <title>Effy Blankets</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div>
+    </head>
+      <h1>Effy'S Home</h1>
+     <section class="header">
+
+<nav>
+  <a href="index.html"><img src="images/logo3.png"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-window-close" onclick="hideMenu()"></i>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="ourproducts.html">OUR PRODUCTS</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">BLOG</a></li>
+        <li><a href="">CONTACT</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>  
+    <div class="text-box">
+      <h1>The site you didn't know you needed</h1>
+      <p>Making you get what you deserve is our biggest priority.<br>We make websites,apps,cloudhosting and manage your databases or you.<br> Welcome at any time.</p>
+      <a href="" class="hero-btn">Explore more</a>
+    </div>
+</section>
+
+<!---------services------------->
+
+<section class="service">
+  <h1>We sell</h1>
+  <p>This are the services offered by our organisation </p>
+
+   <div class="row">
+     <div class="service-col">
+       <h3>Knited Blankets</h3>
+       <p>Locked</p>
+     </div>
+     <div class="service-col">
+      <h3>Mermaid Blankets</h3>
+      <p>Locked</p>
+    </div>
+    <div class="service-col">
+      <h3>Velvet</h3>
+      <p>Locked</p>
+    </div>
+   </div>
+</section>
+<!-----------where we are---------->
+<section class="about">
+  <h1>Where we are</h1>
+<p>We are a company locate</p>
+  <div class="row">
+    <div class="about-col">
+        <img src="images/box.jpg">
+        <div class="layer">
+          <h3>NAIROBI</h3>
+        </div>
+    </div>
+    
+
+  </div>
+</section>
+<!------footer----->
+<section class="footer">
+  <h4>About us</h4>
+  <p>Our intagram page</p>
+  <i class="fa fa-instagram" >effy blankets</i>
+  
+</section>
+<!--------javascript for toogle menu------>
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+
+function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+  </script>
+
+</body>
+</html>
